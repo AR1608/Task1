@@ -1,0 +1,33 @@
+.sidenav {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .sidenav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .black {
+    background-color: black;
+  }
+  
+  .sidenav a:hover {
+    opacity: 0.8;
+  }

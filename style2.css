@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.vertical-nav, .horizontal-nav {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.vertical-nav ul, .horizontal-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-nav li a, .horizontal-nav li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.vertical-nav li a.active {
+    background-color: orange;
+    color: white;
+}
+
+.horizontal-nav li {
+    display: inline-block;
+}
+
+.horizontal-nav li a {
+    background-color: #ddd;
+}
+
+.horizontal-nav li a.active {
+    background-color: #333;
+    color: white;
+}
+
+.vertical-nav li a:hover:not(.active), .horizontal-nav li a:hover:not(.active) {
+    background-color: #ddd;
+}
